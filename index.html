@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number System Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+  <aside>This website can convert Decimal numbers to Binary/Octal and Vice-versa</aside>
+<header class="row">
+  <header class="col-md-6">
+    <form action="">
+      <div>
+        <h1>Convert</h1>
+        <input type="radio" value="Binary" name="input" id="binary1">
+        <label for="binary1">Binary</label>
+        <br>
+        <input type="radio" value="Octal" name="input" id="octal1">
+        <label for="octal1">Octal</label>
+      </div>
+      <div>
+        <label for="number1">Enter the number:</label>
+        <input type="number" value="" id="number1" style="color: black;">
+      </div>
+      <div>
+        <h1>To Decimal</h1>
+      </div>
+      <input type="button" value="Convert!!" onclick="Calculate1()">
+    </form>
+    <div>
+      RESULT:
+      <div id="result1">
+  
+      </div>
+    </div>
+    <script src="home.js"></script>
+  </header>
+
+  <article></article>
+
+  <header class="col-md-6">
+    <form action="">
+      <div>
+        <h1>Convert Decimal</h1>
+      </div>  
+      <div>
+        <h1>To</h1>
+        <input type="radio" value="Binary" name="input" id="binary2">
+        <label for="binary2">Binary</label>
+        <br>
+        <input type="radio" value="Octal" name="input" id="octal2">
+        <label for="octal2">Octal</label>
+      </div>
+      <div>
+        <label for="number2">Enter the number:</label>
+        <input type="number" value="" id="number2" style="color: black;">
+      </div>
+      <input type="button" value="Convert!!" onclick="Calculate2()">
+    </form>
+    <div>
+      RESULT:
+      <div id="result2">
+  
+      </div>
+    </div>
+    <script src="home.js"></script>
+  </header>
+</header>
+</body>
+</html>
